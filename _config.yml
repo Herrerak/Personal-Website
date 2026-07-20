@@ -13,22 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Your Site Title"
+title: "KIMSWEB"
 email: &EMAIL "herre484@umn.edu"
 description:
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-github_username: Herrerak
+  Hey you found me! This is my personal website where you'll find my mathematical interests, projects, and many other things I do.
+github_username: &GITHUB Herrerak
 minimal_mistakes_skin: default
 search: true
-
+url: "https://herrerak.github.io"
+baseurl: "/mywebsite"
 
 author:
   name   : "Kimberly Herrera"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
+  bio    : "I'm a PhD student in mathematics at the University of Minnesota Twin Cities. My current research interests include algebraic geometry, homological algebra, Lie theory, and representation theory. I enjoy learning about the connections between different areas of mathematics and am always excited to explore new research directions. Outside of math, I'm a big fan of Caribou's Iced Honey Oatmilk Crafted Press (despite not being a coffee addict!), BTS, Taco Bell, makeup, and nail art. I care deeply about diversity and inclusion in the mathematical community and love mentoring and supporting students—please don't hesitate to reach out! I also enjoy participating in outreach activities that encourage people of all ages to discover and appreciate mathematics, such as MPM and math fairs."
+
     - label: "✉ Email"
       icon: "fab"
       url: !join ["mailto:", *EMAIL]
@@ -52,8 +51,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: America/Chicago
 include:
   - _pages
 
@@ -92,3 +90,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
