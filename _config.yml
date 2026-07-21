@@ -13,20 +13,22 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Kimberly's Website"
+title: "Kimberly Herrera"
+
 email: &EMAIL "herre484@umn.edu"
 github_username: &GITHUB "Herrerak"
-description:
+
+url: "https://herrerak.github.io"
+baseurl: "/Personal-Website"
+description: >
   Hey you found me! This is my personal website where you'll find my mathematical interests, projects, and many other things I do.
-github_username: &GITHUB Herrerak
 minimal_mistakes_skin: default
 search: true
-url: "https://herrerak.github.io"
-baseurl: "/mywebsite"
+
 
 author:
   name   : "Kimberly Herrera"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar: "/assets/images/bio-photo.jpg"
   bio    : >
     Hi there! I'm a math PhD student at UMN Twin Cities.
     I'm interested in algebraic geometry, homological algebra, and Lie theory.
@@ -36,6 +38,7 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: !join ["mailto:", *EMAIL]
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: !join ["https://github.com/", *GITHUB]
