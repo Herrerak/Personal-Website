@@ -20,15 +20,16 @@ github_username: &GITHUB "Herrerak"
 
 url: "https://herrerak.github.io"
 baseurl: "/Personal-Website"
+
 description: >
   Hey you found me! This is my personal website where you'll find my mathematical interests, projects, and many other things I do.
+
 minimal_mistakes_skin: default
 search: true
 
-
 author:
   name   : "Kimberly Herrera"
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.jpg"
   bio    : >
     Hi there! I'm a math PhD student at UMN Twin Cities.
     I'm interested in algebraic geometry, homological algebra, and Lie theory.
@@ -46,15 +47,17 @@ author:
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
 timezone: America/Chicago
+
 include:
   - _pages
 
-# Plugins (previously gems:)
+# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -63,8 +66,8 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Default layouts
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -75,7 +78,7 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+
   - scope:
       path: "_pages"
       type: pages
@@ -83,10 +86,11 @@ defaults:
       layout: single
       author_profile: true
 
+# Archives
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
-
