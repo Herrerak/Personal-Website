@@ -1,6 +1,6 @@
 ---
-layout: splash
-author_profile: false
+layout: single
+author_profile: true
 ---
 ![Kimberly Herrera](/assets/images/kim-photo.jpg)
 
