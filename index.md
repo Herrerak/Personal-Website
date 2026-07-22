@@ -3,8 +3,7 @@ layout: splash
 author_profile: false
 ---
 
-<img src="{{ '/assets/images/bio-photo.jpg' | relative_url }}" alt="Kimberly Herrera" width="200">
-
+<img src="{{ '/assets/images/kimberly-photo.jpg' | relative_url }}" alt="Kimberly Herrera" width="200">
 # Kimberly Herrera
 
 PhD Student in Mathematics  
