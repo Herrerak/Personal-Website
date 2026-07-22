@@ -5,7 +5,7 @@ layout: single
 author_profile: false
 ---
 
-Outside of mathematics, I'm a huge BTS fan! Some of my favorite songs are **Dis-ease** and **We On**. One of my favorite memories was seeing them live in Chicago (August 27) and Los Angeles (September 5). Here are a few photos from the concerts!
+Outside of mathematics, I'm a huge BTS fan! Some of my favorite songs are [Dis-ease](https://youtu.be/rSi4UIWbtM0?si=yTGW5fSFnLaMp_xj) and [We On](https://youtu.be/p6CIxdvSl4E?si=gfkGZx2wWdA7bdUv). One of my favorite memories was seeing them live in Chicago (August 27) and Los Angeles (September 5). Here are a few photos from the concerts!
 
 I'm also a proud Taco Bell enthusiast. My go-to order is a **Steak Grilled Cheese Burrito**, and if I'm taking a break from studying, there's a good chance I'm catching up on *Love Island*.
 
