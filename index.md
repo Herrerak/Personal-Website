@@ -2,6 +2,6 @@
 layout: single
 author_profile: true
 ---
-Hi welcome to my website!
+Hi, welcome to my website!
 
 
