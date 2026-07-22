@@ -3,7 +3,7 @@ layout: splash
 author_profile: false
 ---
 
-<img src="{{ '/assets/images/bio-photo.jpg' | relative_url }}">
+<img src="{{ '/assets/images/bio-photo.jpg' | relative_url }}" alt="Kimberly Herrera" width="200">
 
 # Kimberly Herrera
 
