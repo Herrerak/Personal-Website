@@ -1,6 +1,9 @@
 ---
-title: "Posts by Tag"
-permalink: /tags/
-layout: tags
-author_profile: true
+title: "Teaching"
+permalink: /teaching/
+layout: single
+author_profile: false
 ---
+
+## Fall 2026
+
